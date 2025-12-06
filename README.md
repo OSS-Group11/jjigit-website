@@ -29,8 +29,7 @@ Jjigit is an AI-powered voting and discussion platform that empowers communities
 - **AI/ML Repository:** [https://github.com/OSS-Group11/jjigit-ai](https://github.com/OSS-Group11/jjigit-ai)
 
 ### Community
-- **Discord Server:** [Join our community](#)
-- **GitHub Discussions:** [https://github.com/OSS-Group11/jjigit/discussions](https://github.com/OSS-Group11/jjigit/discussions)
+- **Discord Server:** [Join our community](https://discord.gg/q9p6uCp4)
 
 ## 🚀 Local Development
 
@@ -172,10 +171,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Email:** contact@jjigit.io
+- **Email:** jjigit@gmail.com
 - **GitHub Issues:** [Create an issue](https://github.com/OSS-Group11/jjigit-website/issues)
-- **Discord:** [Join our community](https://oss-group11.github.io/jjigit-website/community.html)
-- **Discussions:** [GitHub Discussions](https://github.com/OSS-Group11/jjigit/discussions)
+- **Discord:** [Join our community](https://discord.gg/q9p6uCp4)
+- **Discussions:** [GitHub Discussions](https://github.com/OSS-Group11)
 
 ## 🙏 Acknowledgments
 
