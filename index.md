@@ -98,7 +98,7 @@ title: Home
     </div>
     
     <div class="cta-section">
-      <a href="/features.html" class="btn btn-secondary-large">Explore All Features</a>
+      <a href="{{ site.baseurl }}/features.html" class="btn btn-secondary-large">Explore All Features</a>
     </div>
   </div>
 </section>
@@ -122,7 +122,7 @@ title: Home
       <div class="link-card">
         <h3>👥 Join Community</h3>
         <p>Connect with other users and developers</p>
-        <a href="/community.html">Community Hub →</a>
+        <a href="{{ site.baseurl }}/community.html">Community Hub →</a>
       </div>
       
       <div class="link-card">
