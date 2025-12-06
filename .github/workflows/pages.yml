@@ -49,26 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
-4. 아래 **Commit changes...** 클릭
-5. **Commit changes** 클릭
-
----
-
-### 2단계: .gitignore 파일 만들기
-
-1. 다시 메인 페이지에서 **Add file** → **Create new file** 클릭
-2. 파일 이름: `.gitignore`
-3. 내용:
-```
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-vendor/
-.bundle/
-*.gem
-Gemfile.lock
-.DS_Store
-node_modules/
