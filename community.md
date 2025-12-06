@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Community
-permalink: /community/
+permalink: /community.html
 ---
 
 <div class="page-header">
