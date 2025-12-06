@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Features
-permalink: /features/
+permalink: /features.html
 ---
 
 <div class="page-header">
