@@ -6,16 +6,15 @@ permalink: /community.html
 
 <div class="page-header">
   <h1>Join the Jjigit Community</h1>
-  <p class="page-subtitle">Connect with developers, contributors, and users from around the world</p>
+  <p class="page-subtitle">Connect with developers, contributors, and users</p>
 </div>
 
 <section class="community-intro">
   <div class="container">
     <p class="intro-text">
-      Jjigit thrives because of its vibrant community of users, developers, and contributors. 
-      Whether you're here to report a bug, suggest a feature, contribute code, or simply discuss 
-      ideas, we welcome you with open arms. Join us across multiple platforms and be part of 
-      shaping the future of democratic discourse.
+      Jjigit thrives because of its community of users, developers, and contributors. 
+      Whether you're here to report a bug, suggest a feature, or contribute code, 
+      we welcome you. Join us and be part of shaping the future of democratic discourse.
     </p>
   </div>
 </section>
@@ -26,25 +25,25 @@ permalink: /community.html
     
     <div class="channel-grid">
       
-      <!-- GitHub Discussions -->
+      <!-- GitHub -->
       <div class="channel-card featured">
         <div class="channel-icon">
           <svg fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
           </svg>
         </div>
-        <h3>GitHub Discussions</h3>
+        <h3>GitHub</h3>
         <p>
-          The primary hub for technical discussions, feature requests, and community Q&A. 
-          Engage with maintainers and fellow developers in threaded conversations.
+          Our main hub for code, issues, and collaboration. Report bugs, request features, 
+          or browse the source code.
         </p>
         <div class="channel-meta">
-          <span class="meta-item">💬 General Discussion</span>
+          <span class="meta-item">💻 Source Code</span>
           <span class="meta-item">🐛 Bug Reports</span>
-          <span class="meta-item">💡 Feature Ideas</span>
+          <span class="meta-item">💡 Feature Requests</span>
         </div>
-        <a href="{{ site.project.discussions_url }}" class="channel-link" target="_blank">
-          Join Discussions →
+        <a href="{{ site.project.github_url }}" class="channel-link" target="_blank">
+          Visit GitHub →
         </a>
       </div>
 
@@ -58,7 +57,7 @@ permalink: /community.html
         <h3>Discord Server</h3>
         <p>
           Real-time chat with the Jjigit community. Get instant help, share ideas, 
-          and connect with other users in our friendly Discord server.
+          and connect with other users in our Discord server.
         </p>
         <div class="channel-meta">
           <span class="meta-item">⚡ Instant Support</span>
@@ -80,7 +79,7 @@ permalink: /community.html
         <h3>Mailing List</h3>
         <p>
           Stay updated with important announcements, release notes, and community news. 
-          Subscribe to receive curated updates directly in your inbox.
+          Subscribe to receive updates directly in your inbox.
         </p>
         <div class="channel-meta">
           <span class="meta-item">📰 Release Notes</span>
@@ -91,72 +90,6 @@ permalink: /community.html
           <input type="email" placeholder="your@email.com" class="email-input">
           <button class="email-submit">Subscribe</button>
         </div>
-      </div>
-
-      <!-- Stack Overflow -->
-      <div class="channel-card">
-        <div class="channel-icon stackoverflow">
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z"/>
-          </svg>
-        </div>
-        <h3>Stack Overflow</h3>
-        <p>
-          Ask technical questions and get answers from the broader developer community. 
-          Tag your questions with <code>jjigit</code> for visibility.
-        </p>
-        <div class="channel-meta">
-          <span class="meta-item">❓ Q&A Format</span>
-          <span class="meta-item">🏆 Reputation System</span>
-          <span class="meta-item">🔍 Searchable</span>
-        </div>
-        <a href="https://stackoverflow.com/questions/tagged/jjigit" class="channel-link" target="_blank">
-          Browse Questions →
-        </a>
-      </div>
-
-      <!-- Reddit -->
-      <div class="channel-card">
-        <div class="channel-icon reddit">
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/>
-          </svg>
-        </div>
-        <h3>Reddit Community</h3>
-        <p>
-          Join discussions, share experiences, and discover interesting use cases on our 
-          subreddit. A casual space for the Jjigit community.
-        </p>
-        <div class="channel-meta">
-          <span class="meta-item">🗣️ Casual Discussion</span>
-          <span class="meta-item">📸 Showcases</span>
-          <span class="meta-item">🎯 Polls</span>
-        </div>
-        <a href="https://reddit.com/r/jjigit" class="channel-link" target="_blank">
-          Visit Subreddit →
-        </a>
-      </div>
-
-      <!-- Twitter/X -->
-      <div class="channel-card">
-        <div class="channel-icon twitter">
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-          </svg>
-        </div>
-        <h3>X (Twitter)</h3>
-        <p>
-          Follow us for quick updates, tips, and community highlights. 
-          Join the conversation with #Jjigit.
-        </p>
-        <div class="channel-meta">
-          <span class="meta-item">⚡ Quick Updates</span>
-          <span class="meta-item">📱 Mobile-Friendly</span>
-          <span class="meta-item">🌐 Global Reach</span>
-        </div>
-        <a href="https://twitter.com/jjigit_official" class="channel-link" target="_blank">
-          Follow Us →
-        </a>
       </div>
 
     </div>
@@ -224,30 +157,6 @@ permalink: /community.html
       <div class="conduct-item">
         <span class="conduct-icon">⚖️</span>
         <p>Report violations appropriately</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="community-stats">
-  <div class="container">
-    <h2 class="section-title">Community at a Glance</h2>
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-number">1K+</div>
-        <div class="stat-label">Active Users</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">50+</div>
-        <div class="stat-label">Contributors</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">500+</div>
-        <div class="stat-label">GitHub Stars</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">100+</div>
-        <div class="stat-label">Discussions</div>
       </div>
     </div>
   </div>
