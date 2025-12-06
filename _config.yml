@@ -1,0 +1,66 @@
+# Jjigit - AI-Powered Voting & Discussion Platform
+title: Jjigit
+description: >-
+  A modern voting and discussion platform powered by AI. 
+  Engage in meaningful debates, vote on trending topics, 
+  and let AI help discover what matters most.
+baseurl: ""
+url: "https://oss-group11.github.io"
+
+# Theme
+theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Social
+github_username: rlatndusgu
+email: ksy0409123@naver.com
+
+# Collections
+collections:
+  features:
+    output: true
+    permalink: /features/:name/
+
+# Navigation
+header_pages:
+  - index.md
+  - features.md
+  - community.md
+  - contact.md
+
+# Custom variables
+project:
+  live_url: "https://jjigit-fe.vercel.app/"
+  docs_url: "https://jjigit-be.readthedocs.io/en/latest/"
+  github_url: "https://github.com/OSS-Group11/jjigit"
+  discord_url: "https://discord.gg/q9p6uCp4"
+  discussions_url: "https://github.com/yourusername/jjigit/discussions"
+
+# Color scheme (matching your frontend)
+colors:
+  primary: "#4F46E5"
+  secondary: "#06B6D4"
+  accent: "#F59E0B"
+  dark: "#1F2937"
+  light: "#F9FAFB"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
