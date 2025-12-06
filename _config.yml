@@ -4,7 +4,7 @@ description: >-
   A modern voting and discussion platform powered by AI. 
   Engage in meaningful debates, vote on trending topics, 
   and let AI help discover what matters most.
-baseurl: ""
+baseurl: "/jjigit-website"
 url: "https://oss-group11.github.io"
 
 # Theme
