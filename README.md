@@ -2,7 +2,37 @@
 
 Official website for Jjigit - An AI-powered voting and discussion platform.
 
-## 🚀 Quick Start
+🌐 **Live Site:** [https://oss-group11.github.io/jjigit-website/](https://oss-group11.github.io/jjigit-website/)
+
+## 📌 About Jjigit
+
+Jjigit is an AI-powered voting and discussion platform that empowers communities to engage in democratic discourse. This repository hosts the official project website built with Jekyll and GitHub Pages.
+
+### Key Features
+
+- 🗳️ **User-Generated Voting Topics** - Create and participate in polls on topics that matter
+- 🤖 **AI Topic Suggestions** - Get intelligent topic recommendations powered by AI
+- ⏰ **Automated Content Generation** - AI automatically generates fresh topics every hour
+- 💬 **Real-Time Discussions** - Engage in live debates with users worldwide
+- 🔐 **Secure Authentication** - Personalized experience with user profiles and voting history
+
+## 🔗 Project Links
+
+### Main Applications
+- **Live App:** [https://jjigit-fe.vercel.app/](https://jjigit-fe.vercel.app/)
+- **API Documentation:** [https://jjigit-be.readthedocs.io/](https://jjigit-be.readthedocs.io/)
+
+### Repositories
+- **GitHub Organization:** [https://github.com/OSS-Group11](https://github.com/OSS-Group11)
+- **Frontend Repository:** [https://github.com/OSS-Group11/jjigit-fe](https://github.com/OSS-Group11/jjigit-fe)
+- **Backend Repository:** [https://github.com/OSS-Group11/jjigit-be](https://github.com/OSS-Group11/jjigit-be)
+- **AI/ML Repository:** [https://github.com/OSS-Group11/jjigit-ai](https://github.com/OSS-Group11/jjigit-ai)
+
+### Community
+- **Discord Server:** [Join our community](#)
+- **GitHub Discussions:** [https://github.com/OSS-Group11/jjigit/discussions](https://github.com/OSS-Group11/jjigit/discussions)
+
+## 🚀 Local Development
 
 ### Prerequisites
 
@@ -13,7 +43,7 @@ Official website for Jjigit - An AI-powered voting and discussion platform.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/jjigit-website.git
+git clone https://github.com/OSS-Group11/jjigit-website.git
 cd jjigit-website
 ```
 
@@ -27,180 +57,135 @@ bundle install
 bundle exec jekyll serve
 ```
 
-4. Open your browser and visit `http://localhost:4000`
+4. Open your browser and visit:
+```
+http://localhost:4000/jjigit-website/
+```
 
 ## 📁 Project Structure
-
 ```
 jjigit-website/
-├── _layouts/          # HTML layouts
+├── _layouts/              # HTML layouts
 │   └── default.html
 ├── assets/
 │   └── css/
-│       └── style.css  # Main stylesheet
-├── index.md           # Homepage
-├── features.md        # Features page
-├── community.md       # Community page
-├── contact.md         # Contact page
-├── _config.yml        # Jekyll configuration
-├── Gemfile            # Ruby dependencies
-└── README.md          # This file
+│       └── style.css      # Main stylesheet
+├── index.md               # Homepage
+├── features.md            # Features page
+├── community.md           # Community page
+├── contact.md             # Contact page
+├── _config.yml            # Jekyll configuration
+├── Gemfile                # Ruby dependencies
+└── README.md              # This file
 ```
+
+## 🎨 Website Pages
+
+- **Homepage** (`/`) - Project introduction and mission statement
+- **Features** (`/features.html`) - Detailed feature descriptions
+- **Community** (`/community.html`) - Community channels and resources
+- **Contact** (`/contact.html`) - Contact information and inquiry form
 
 ## 🛠️ Customization
 
-### Update Site Information
+### Changing Colors
 
-Edit `_config.yml` to update:
-- Site title and description
-- GitHub repository URL
-- ReadTheDocs documentation URL
-- Live application URL
-- Social media links
-
-### Modify Colors
-
-Edit the CSS variables in `assets/css/style.css`:
-
+Edit CSS variables in `assets/css/style.css`:
 ```css
 :root {
-  --primary: #4F46E5;      /* Primary color */
-  --secondary: #06B6D4;    /* Secondary color */
-  --accent: #F59E0B;       /* Accent color */
-  /* ... */
+  --primary: #4F46E5;      /* Primary color (Indigo) */
+  --secondary: #06B6D4;    /* Secondary color (Cyan) */
+  --accent: #F59E0B;       /* Accent color (Amber) */
 }
 ```
 
-### Add New Pages
+### Editing Content
 
-1. Create a new `.md` file in the root directory
-2. Add front matter:
-```yaml
----
-layout: default
-title: Your Page Title
-permalink: /your-page/
----
-```
-3. Add your content
-4. Update navigation in `_layouts/default.html`
+Modify the `.md` files directly:
+- `index.md` - Homepage content
+- `features.md` - Feature descriptions
+- `community.md` - Community information
+- `contact.md` - Contact details
+
+### Updating Configuration
+
+Edit site settings in `_config.yml`:
+- Site title and description
+- Social media links
+- Project URLs
 
 ## 🌐 Deployment
 
-### GitHub Pages
+This site is automatically deployed via GitHub Actions.
 
-1. Push your code to GitHub
-2. Go to Settings > Pages
-3. Select the branch you want to deploy
-4. Save and wait for deployment
+1. Push to the `main` branch
+2. GitHub Actions builds and deploys automatically
+3. Changes appear live in 1-2 minutes at [https://oss-group11.github.io/jjigit-website/](https://oss-group11.github.io/jjigit-website/)
 
-### Custom Domain
+## 🤝 Contributing to Jjigit
 
-1. Add a `CNAME` file with your domain
-2. Configure DNS settings with your domain provider
-3. Enable HTTPS in GitHub Pages settings
+**Note:** This repository is for the project website only. To contribute to the Jjigit platform itself, please see the appropriate repository:
 
-## 📝 Content Updates
+### For Code Contributions
 
-### Homepage
-Edit `index.md` to update:
-- Hero section
-- Mission statement
-- Feature preview
-- Quick links
+- **Frontend Development** → [jjigit-fe](https://github.com/OSS-Group11/jjigit-fe)
+  - React/Next.js development
+  - UI/UX improvements
+  - Frontend features
 
-### Features Page
-Edit `features.md` to:
-- Add new features
-- Update feature descriptions
-- Modify visual placeholders
+- **Backend Development** → [jjigit-be](https://github.com/OSS-Group11/jjigit-be)
+  - API development
+  - Database management
+  - Server-side logic
 
-### Community Page
-Edit `community.md` to:
-- Update communication channels
-- Add new community platforms
-- Modify contribution guidelines
+- **AI/ML Development** → [jjigit-ai](https://github.com/OSS-Group11/jjigit-ai)
+  - Topic generation models
+  - Recommendation algorithms
+  - NLP improvements
 
-### Contact Page
-Edit `contact.md` to:
-- Update contact information
-- Modify contact form
-- Add social links
+### For Website Contributions
 
-## 🎨 Design Guidelines
+Contributions to improve this website are welcome! 
 
-The website follows a modern, professional design with:
-- **Color Scheme**: Indigo (#4F46E5) and Cyan (#06B6D4)
-- **Typography**: System fonts for optimal performance
-- **Layout**: Responsive grid-based design
-- **Components**: Card-based interface elements
-- **Icons**: Inline SVG for flexibility
+**How to contribute:**
 
-## 📱 Responsive Design
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/improve-documentation`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Improve documentation clarity'`)
+5. Push to your branch (`git push origin feature/improve-documentation`)
+6. Open a Pull Request
 
-The website is fully responsive and optimized for:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (< 768px)
+**What to contribute:**
+- Documentation improvements
+- Design enhancements
+- Content corrections
+- Accessibility improvements
 
-## 🧩 Components
+## 👥 Team
 
-### Buttons
-- Primary: White background, primary text
-- Secondary: Transparent with border
-- Tertiary: Minimal styling
+**OSS-Group11** - [GitHub Organization](https://github.com/OSS-Group11)
 
-### Cards
-- Feature cards: Gradient icons, shadow effects
-- Link cards: Left border accent
-- Channel cards: Platform-specific styling
+## 📝 License
 
-### Forms
-- Contact form with validation
-- Newsletter subscription
-- Customizable field types
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔧 Advanced Customization
+## 📞 Contact
 
-### Adding Analytics
-
-Edit `_layouts/default.html` and add your analytics code in the production block:
-
-```html
-{% if jekyll.environment == 'production' %}
-  <!-- Your analytics code here -->
-{% endif %}
-```
-
-### Custom JavaScript
-
-Add custom scripts at the bottom of `_layouts/default.html` before the closing `</body>` tag.
-
-### Email Form Integration
-
-The contact form uses Formspree. To integrate:
-
-1. Sign up at [Formspree](https://formspree.io)
-2. Create a new form
-3. Replace `YOUR_FORM_ID` in `contact.md` with your Formspree form ID
-
-## 📄 License
-
-This website template is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-For issues and questions:
-- GitHub Issues: [Report a bug](https://github.com/yourusername/jjigit-website/issues)
-- Email: contact@jjigit.io
+- **Email:** contact@jjigit.io
+- **GitHub Issues:** [Create an issue](https://github.com/OSS-Group11/jjigit-website/issues)
+- **Discord:** [Join our community](https://oss-group11.github.io/jjigit-website/community.html)
+- **Discussions:** [GitHub Discussions](https://github.com/OSS-Group11/jjigit/discussions)
 
 ## 🙏 Acknowledgments
 
-Built with:
 - [Jekyll](https://jekyllrb.com/) - Static site generator
-- [GitHub Pages](https://pages.github.com/) - Hosting
-- Inspired by [Apache Hadoop](https://hadoop.apache.org/) and [Django](https://www.djangoproject.com/)
+- [GitHub Pages](https://pages.github.com/) - Hosting platform
+- [Apache Hadoop](https://hadoop.apache.org/) - Design inspiration
+- [Django](https://www.djangoproject.com/) - Community structure inspiration
+
+---
+
+**Built with ❤️ by OSS-Group11**
+
+*Empowering democratic discourse through AI-powered voting and discussion*
