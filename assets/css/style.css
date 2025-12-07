@@ -904,6 +904,7 @@ body {
 
 .email-form {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1rem;
 }
@@ -931,6 +932,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
+  white-space: nowrap;
 }
 
 .email-submit:hover {
