@@ -88,7 +88,7 @@ permalink: /community.html
         </div>
         <div class="email-form">
           <input type="email" placeholder="your@email.com" class="email-input">
-          <button class="email-submit">Subscribe</button>
+          <button type="button" class="email-submit">Subscribe</button>
         </div>
       </div>
 
