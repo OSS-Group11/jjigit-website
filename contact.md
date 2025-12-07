@@ -21,7 +21,7 @@ permalink: /contact.html
         </div>
         <h3>Email Us</h3>
         <p>For general inquiries, support, or partnership opportunities</p>
-        <a href="mailto:{{ site.email }}" class="contact-link">{{ site.email }}</a>
+        <a href="mailto:jjigit.project@gmail.com" class="contact-link">jjigit.project@gmail.com</a>
         <div class="email-types">
           <p><strong>Support:</strong> support@jjigit.io</p>
           <p><strong>Business:</strong> business@jjigit.io</p>
