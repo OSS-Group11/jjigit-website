@@ -17,7 +17,7 @@ title: Home
         <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
         </svg>
-        Launch App
+        Launch Website
       </a>
       <a href="{{ site.project.docs_url }}" class="btn btn-secondary" target="_blank">
         <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -128,7 +128,7 @@ title: Home
       <div class="link-card">
         <h3>🚀 Try It Now</h3>
         <p>Experience Jjigit in action</p>
-        <a href="{{ site.project.live_url }}" target="_blank">Launch App →</a>
+        <a href="{{ site.project.live_url }}" target="_blank">Launch Website →</a>
       </div>
     </div>
   </div>
